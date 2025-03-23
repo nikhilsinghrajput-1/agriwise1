@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class WeatherRemoteDataSource {
-  final String apiKey = '122b5ca44232667e09aac00898f601bf';
+  final String apiKey = '';
   final String cityName = 'Dhaka';
 
   Future<Map<String, dynamic>> getWeatherData() async {
